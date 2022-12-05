@@ -1,0 +1,482 @@
+
+@font-face {
+	font-family: Oranienbaum;
+	src: url("../fonts/Oranienbaum-Regular.ttf");
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url("../fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+	font-family: RobotoBold;
+	src: url("../fonts/Roboto-Bold.ttf");
+}
+
+html {
+	position: absolute;
+	background: #000;
+	left: 5rem;
+	right: 5rem;
+	top:0;
+	bottom: 0;
+	overflow-x: scroll;
+	overflow-wrap: scroll;
+}
+
+.wrap {
+  position: relative;
+}    
+
+.box {
+    /* Обозначить верхний левый угол */
+    left: 0px;
+    position: absolute;
+    top: 0px;
+
+    /* Размеры блока */
+    height: 250px;
+    width: 200px;
+
+    /* Рамка блока */
+    overflow: hidden;
+} 
+
+.ribbon {
+    /* Позиционирование ленты */
+    left: -64px;
+    position: absolute;
+    top: 32px;
+
+    /* Размеры ленты */
+    height: 30px;
+    width: 206px;
+
+    /* Цвет фона */
+    background-color: red;
+
+    /* Текст по центру */
+    text-align: center;
+
+    transform: rotate(-45deg);
+    color: #fff;
+		font-family: RobotoBold;
+		font-size: 18px;
+		line-height: 1.5em;
+}   
+
+.price {
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+}
+
+.col-sm-border {
+	border: 1px solid #9C9C9C;
+	padding-bottom: 2rem;
+	margin: 1rem;
+}
+
+.col-sm-border:hover {
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px #888;
+	box-shadow: 0 0 5px 5px #888;
+}
+
+.price-after {
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.price:before {
+	border-bottom: 3px solid red;
+	position: absolute;
+	content: "";
+	width: 4rem;
+	height: 1.02rem;
+	transform: rotate(-7deg);
+}
+
+@media screen, print {
+  html { 
+    	left: 5em;
+    	right: 5rem;
+  }
+}
+
+body {
+	background-color: transparent;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+a.top:active, /* активная/посещенная ссылка */
+a.top:hover,  /* при наведении */
+a.top,
+a {
+  text-decoration:none;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, a {
+	font-family: Oranienbaum serif;
+}
+
+div, p, span {
+	font-family: Roboto;
+}
+
+.container {
+    position: relative;
+    display: block;
+}
+
+.custom-navbar {
+	background-color: black;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	left: 5rem;
+	right: 5rem;
+}
+
+.nav-link:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.nav-link {
+	color: #ffffffff;
+	font-weight: bold;
+}
+
+.navbar-right {
+	float: right;
+	width: 100%;
+	text-align: right;
+}
+
+.nav-phones {
+	padding: 0;
+	display: block;
+}
+
+#img-face {
+	background-image: url("../template_glamurnenko_style/bg-main.png");
+	background-position: center;
+	background-size: cover;
+	height: 821px;
+	width: 100%;
+} 
+
+.img-logo {
+	top: 3rem;
+	left: 4rem;
+	display: block;
+	position: absolute;
+	z-index: 3;
+}
+
+.maincontent {
+	height: 100%;
+	width: 100%;
+	display: block;
+/*	bottom: 0;*/
+	top:4rem;
+	position: absolute;
+	z-index: 3;
+	
+}
+
+.maincontent div{
+	display: block;
+}
+
+.maincontent span {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 0.5em;
+	color: white;
+}
+
+#logo-text {
+	font-weight: bold;
+	display: block; 
+	position: absolute; 
+	top: 13rem;
+	left: 2rem;
+}
+
+.col-m {
+	top: 675px;
+	position: absolute;
+}
+
+.main-info {
+	background-color: #fff;
+	color: #000;
+}
+
+
+#center-info-h1 {
+	padding: 2rem;
+	text-align: center;
+} 
+
+#info-p {
+	text-transform: uppercase; 
+	text-align: center; 
+	margin: 5px 5px 19px 5px;
+	padding-left: 5%; 
+	padding-right: 5%;
+	line-height: 2.5em;
+	font-size: 18px;
+}
+
+#go-shopping {
+	background-image: url("../template_glamurnenko_style/form-reservation-bigcolor.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 640px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.div-text {
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 20px;
+}
+
+.info-h1-text {
+	text-transform: uppercase;
+	padding: 2rem 0;
+}
+
+.table-dis {
+	margin: 10%;
+	font-size: 16px;
+	max-width: 80%;
+	text-transform: uppercase;
+	font-family: RobotoBold;
+}
+
+th, td, tr {
+	border: 3px solid #ffd500;
+}
+
+
+td {
+	text-align: center;
+
+}
+
+.col {
+	width: 20%;
+}
+
+#img-books {
+	background-image: url("../template_glamurnenko_style/2razmera_books_preview_1200_c.png");
+	background-position: center;
+	background-size: cover;
+	height: 560px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+
+.margin-table-package {
+	margin-right: 1rem;
+	margin-left: 1rem;
+	line-height: 2em;
+	margin-bottom: 4rem;
+}
+
+.p-format-table-package-center {
+	text-align: center;
+	line-height: 2em;
+}
+
+.btn-black {
+	font-family: RobotoBold;
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #000;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+
+.btn-black:hover {
+  color: #000;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.btn-style {
+	font-family: Roboto;
+	color: #fff;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.btn-style-sub {
+	font-size: 18px;
+	padding: 10px;
+	text-decoration: none;
+	cursor: pointer;
+	border: none;
+	width: 100%;
+	max-width: 480px;
+}
+
+.btn-pad {
+	padding: 5px;
+}
+
+
+#btn-footer {
+	text-align: center;
+	padding: 1rem;
+	margin-bottom: 2rem;
+}
+
+.text-bold {
+	font-family: RobotoBold;
+}
+
+
+.span-money {
+	display: inline-block; 
+	border: 1px solid #000;
+	font-weight: bolder;
+	padding: 1rem 1.3rem 1rem 1.3rem;
+	margin: 0.4rem;
+}
+
+.foto-table-client th {
+	border: none;
+}
+
+.foto-table-client tr {
+	border: none;
+}
+
+.img-speak-client {
+	width: 40%;
+	width: 50%;
+	float: right;
+	padding-right: 5rem;
+	padding-bottom: 2rem;
+}
+
+.p-client-speak {
+	text-align: left;
+	padding-right: 10rem;
+}
+
+@media screen and (min-width: 900px) {
+	img.img-speak-client {
+		padding-right: 3rem;
+	}
+
+	p.p-client-speak {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 899px) {
+	img.img-speak-client {
+		padding-right: 0.9rem;
+	}
+
+	p.p-client-speak {
+		font-size: 12px;
+	}
+}
+
+/* NAVIGATION */
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #343b40;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+    transition: all .5s;
+}
+nav ul li a:hover {
+    color: white;
+}
+/* SHIFT */
+nav.shift ul li a {
+    position:relative;
+    z-index: 1;
+}
+nav.shift ul li a:hover {
+    color: white;
+}
+nav.shift ul li a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: #34caf7;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+}
+nav.shift ul li a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+
+.navbar-toggler-right{
+  background-color:red;
+}
+
+.navbar-toggler-icon{
+ background-color:white;
+  }
+
+.bar1{
+     width: 30px;
+  height: 2px;
+  background-color: #000;
+  margin: 6px 0;
+  transition: 0.4s;
+}

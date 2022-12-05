@@ -1,0 +1,46 @@
+.link-glif {
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+	min-height: 25px;
+	min-width: 25px;
+}
+
+.links-inst-wite {
+	background-image: url('../template_glamurnenko_style/1438557260_inst_4.png');
+	background-repeat: no-repeat;
+	height: 25px;
+	background-position: 0 0;
+}
+
+.links-fb-wite {
+	background-image: url('../template_glamurnenko_style/1438557245_ab_4.png');
+	background-repeat: no-repeat;
+	height: 25px;
+	background-position: 0 0;
+}
+
+.links-vk-wite {
+	background-image: url('../template_glamurnenko_style/1438423986_vk_3.png');
+	background-repeat: no-repeat;
+	height: 25px;
+	background-position: 0 0;
+}
+
+.picture1 {
+background: transparent url(../template_glamurnenko_style/bg-main.png) no-repeat;
+width:200px;
+height:200px;
+}
+
+
+/*@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html { 
+    	left: 0rem;
+    	right: 0rem;
+    }
+
+   }*/
